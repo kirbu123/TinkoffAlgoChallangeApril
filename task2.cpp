@@ -10,8 +10,8 @@ int main() {
       std::cin >> matrix[i][j];
     }
   }
-  for (int64_t i = w - 1; i >= 0; --i) {
-    for (int64_t j = 0; j < h; ++j) {
+  for (int64_t i = 0; i < w; ++i) {
+    for (int64_t j = h - 1; j >= 0; --j) {
       std::cout << matrix[j][i] << ' ';
     }
     std::cout << std::endl;
